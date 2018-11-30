@@ -5,3 +5,9 @@
 ```
     path('',views.CBView.as_view())
 ```
+### Views.py
+```
+class CBView(View):
+    def get(self,request):
+        return HttpResponse('Class Based Views are Cool!')
+```
